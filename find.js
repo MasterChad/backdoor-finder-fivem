@@ -5,7 +5,7 @@ var log = ""; // Don't touch this
 
 
 // config
-let folder = "avl_anticheats"; // Put here your folder to scan
+let folder = "addons"; // Put here your folder to scan
 let lines = JSON.parse(fs.readFileSync("lines.json", "utf-8"));
 
 log+="This script will scan all files/folders to find matches with what you put in lines.json, sometimes it can be a normal addon that uses these lines, but sometimes a backdoor.\nSo the script does not indicate ONLY the backdoors, but all the lines that match\n\n\n"
